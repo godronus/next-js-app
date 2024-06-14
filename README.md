@@ -6,9 +6,7 @@ cd compute-js
 
 After the smylink version.. you need to install raw-body and fix events bug
 
-`npm install raw-body`
-&&
-`npm install @fastly/http-compute-js`
+`npm install --save raw-body @fastly/http-compute-js`
 
 followed by `npm run build`
 
