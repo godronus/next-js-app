@@ -16,6 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastly/compute-js-static-publish": "file:/home/doco/dev/gcore/playground/fastly/next-app/compute-js-static-publish",
+    "@fastly/next-compute-js": "file:/home/doco/dev/gcore/playground/fastly/next-app/next-compute-js",
     "next": "12.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
