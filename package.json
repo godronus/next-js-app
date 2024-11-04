@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fastly-build": "npx @fastly/next-compute-js build",
     "fastly-serve": "npm run fastly-build && cd next-compute-js && fastly compute serve --verbose",
